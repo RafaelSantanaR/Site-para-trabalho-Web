@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site muito massa esse daqui">
+    <meta name="author" content="Rafael">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="./img/icon.jpg">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1>Me mande um Jogo!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Envie um jogo para o cachorro Charlie avaliar</h2>
+            <p>Preencha o formulário abaixo para recomendar um jogo ao Charlie.</p>
+
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com"><br><br>
+
+                <label for="jogo">Nome do jogo:</label><br>
+                <input type="text" id="jogo" name="jogo" placeholder="Digite o nome do jogo" list="lista-jogos"><br><br>
+                <datalist id="lista-jogos"></datalist>
+
+                <label for="opinion">Opinião sobre o jogo:</label><br>
+                <textarea id="opinion" name="opinion" rows="5" cols="40" placeholder="Conte o que achou do jogo para o Charlie avaliar"></textarea><br><br>
+
+                <label>Tipo de jogo:</label><br>
+                <input type="radio" id="acao" name="tipo" value="Ação">
+                <label for="acao">Ação</label>
+                <input type="radio" id="aventura" name="tipo" value="Aventura">
+                <label for="aventura">Aventura</label>
+                <input type="radio" id="estrategia" name="tipo" value="Estratégia">
+                <label for="estrategia">Estratégia</label><br><br>
+                <input type="radio" id="outro" name="tipo" value="Outro">
+                <label for="outro">Outro    </label><br><br>
+
+                <input type="checkbox" id="termos" name="termos">
+                <label for="termos">Concordo em enviar este jogo para avaliação do Charlie</label><br><br>
+
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="Index.html">Inicio</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="opinioes.html">Opinioes</a>
+            <a href="">Suporte</a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -45,8 +45,11 @@ section{
     padding: 2%;
 }
 #dogimage{
-    width: 20vw;
-    height: 40vh;
+    display: block;
+    width: min(100%, 320px);
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 #titulo{
@@ -184,4 +187,5 @@ main{
     z-index: 999;
     max-width: 300px;
     font-size: 0.9em;
+    /* Esse é o elemento que segue o scroll da pagina */
 }

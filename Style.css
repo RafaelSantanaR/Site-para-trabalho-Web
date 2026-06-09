@@ -46,15 +46,14 @@ section{
 }
 #dogimage{
     display: block;
-    width: min(100%, 320px);
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
     margin: 0 auto;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 #titulo{
     background-color: crimson;
-    padding: 1px;
+    padding: 1%;
 }
 p a {
     color: crimson;
@@ -114,7 +113,6 @@ main{
     width: fit-content;
     margin: 0 auto;
     padding-left: 0;
-    list-style-position: inside;
 }
 .jogos-lista li{
     font-size: 1.5em;
@@ -126,19 +124,17 @@ main{
 .jogos-lista a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    transition: color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
     display: inline-block;
     padding: 4px 8px;
     border-radius: 6px;
 }
 .jogos-lista a:hover{
     color: crimson;
-    transform: translateX(4px);
     background-color: rgba(220, 20, 60, 0.08);
 }
 .opiniao-tabela{
     width: 90%;
-    max-width: 900px;
+    max-width: 90%;
     border-collapse: collapse;
     margin: 20px auto;
     font-family: Arial, sans-serif;
@@ -149,7 +145,6 @@ main{
     border: 1px solid #d9b9be;
     padding: 14px 16px;
     text-align: left;
-    vertical-align: middle;
 }
 .opiniao-tabela th{
     background-color: crimson;
@@ -163,7 +158,6 @@ main{
 }
 .opiniao-tabela tr:hover{
     background-color: #ffe1e7;
-    transition: background-color 0.3s ease, transform 0.3s ease;
     transform: scale(1.01);
 }
 .opiniao-tabela td{
@@ -179,13 +173,12 @@ main{
     bottom: 20px;
     background: rgb(124, 7, 30);
     color: white;
-    padding: 12px 16px;
+    padding: 1%;
     border-radius: 99px;
     font-family: Arial, sans-serif;
     font-weight: bold;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-    z-index: 999;
-    max-width: 300px;
+    max-width: 30%;
     font-size: 0.9em;
-    /* Esse é o elemento que segue o scroll da pagina */
+    /*o elemento que segue o scroll da pagina */
 }
